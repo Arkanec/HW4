@@ -25,24 +25,24 @@ public class Main {
         }
 
         System.out.println("Задача 4");
-        age = 67;
+        age = 37;
         if (age < 2) {
             System.out.println("Если возраст человека меньше 2 лет, то ему пора спать");
-        } else
+        }
         if (age > 2 && age < 6) {
             System.out.println("Если возраст человека от 2 до 6, то ему нужно ходить в детский сад");
         } else
             if (age > 7 && age < 18) {
                 System.out.println("Если возраст человека от 7 до 18, то ему надо ходить в школу");
-            } else
-                if (age > 18 && age < 24) {
+            }
+        if (age > 18 && age < 24) {
                     System.out.println("Если возраст человека от 18 до 24, то ему нужно посещать университет");
-                } else
-                    if (age > 24 && age < 60) {
+        } else
+            if (age > 24 && age < 60) {
                         System.out.println("Если возраст человека больше 24 то ему надо ходить на работу");
-                    } else
-                        if (age > 60) {
-                            System.out.println("Если возраст человека больше 60, то ему можно отдохнуть");
+                    }
+            if (age > 60) {
+                System.out.println("Если возраст человека больше 60, то ему можно отдохнуть");
                         }
 
         System.out.println("Задача 5");
@@ -80,19 +80,14 @@ public class Main {
         int c = 3;
         if (a > b && a > c) {
             System.out.println("Большее число " + a +"");
-        } else {
-            System.out.println("A не большее число");
-        } if (b > a && b > c) {
+        } else
+            if (b > a && b > c) {
             System.out.println("Большее число " + b +"");
         } else {
-            System.out.println("В не большее число");
-        } if (c > a && c > b) {
             System.out.println("С большее число");
-        } else {
-            System.out.println("С не большее число");
         }
 
 
 
     }
-}
+        }
